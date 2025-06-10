@@ -8,6 +8,9 @@ import x from "../../public/assets/x.png";
 import ig from "../../public/assets/ig.png";
 import bill from "../../public/assets/bill.png";
 import airtime from "../../public/assets/airtime.png";
+import tinyBill from '../../public/assets/tinyBill.png';
+import tinyBulb from '../../public/assets/tinyBulb.png';
+import tinyChat from '../../public/assets/tinyChat.png';
 
 export const variantClasses: Record<string, string> = {
   green: "bg-green-100 text-green-800",
@@ -41,11 +44,11 @@ export const STORE = [
   },
 ];
 
-// export const PROFILEPIC = [
-//   { icon: girl1, alt: "girl1" },
-//   { icon: girl2, alt: "girl2" },
-//   { icon: boy, alt: "boy" },
-// ];
+export const PROFILEPIC = [
+  { icon: girl1, alt: "girl1" },
+  { icon: girl2, alt: "girl2" },
+  { icon: boy, alt: "boy" },
+];
 
 export const SOCIAL_ICONS = [
   {
@@ -93,5 +96,29 @@ export const FEATURES = [
     variant: "blue",
     subtitle:
       "Buy airtime and mobile data for yourself or others — instantly and globally.",
+  },
+];
+
+export const CTALINKS = [
+  {
+    title: "Pay Bills by Typing a Command",
+    icon: tinyBill,
+    // variant: "green",
+    subtitle:
+      "Just say “Pay my WAEC fees” or “Buy airtime for 0803...” — no need to search or fill endless forms.",
+  },
+  {
+    title: "One-Tap Repeats",
+    icon: tinyBulb,
+    // variant: "blue",
+    subtitle:
+      "AI remembers your past payments so you can repeat them in seconds — no retyping required.",
+  },
+  {
+    title: "In-App Chat Assistance",
+    icon: tinyChat,
+    // variant: "blue",
+    subtitle:
+      "AI remembers your past payments so you can repeat them in seconds — no retyping required.",
   },
 ];
