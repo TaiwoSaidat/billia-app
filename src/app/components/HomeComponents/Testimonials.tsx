@@ -1,5 +1,5 @@
 import React from "react";
-import boy2 from "../../../../public/assets/boy2.png";
+import boy2 from "../../../../public/assets/boy3.png";
 import girl3 from "../../../../public/assets/girl3.png";
 import quote from "../../../../public/assets/quote.png";
 import arrowLeft from "../../../../public/assets/arrowLeft.png";
@@ -26,14 +26,16 @@ const Testimonials = () => {
           <div className=" w-full grid grid-cols-1 md:grid-cols-2 gap-4 ">
             {/* plus quote */}
             <div className="bg-text-white rounded-xl p-4  ">
-              <div className=" w-full flex justify-between items-center  rounded-lg">
+              <div className=" w-full flex justify-between items-start  rounded-lg">
                 {/* plus pp */}
                 <div className="flex gap-3 ">
                   <Image src={boy2} alt="Testimonial Image" />
                   {/* arlene, year */}
-                  <div className="">
+                  <div className="flex flex-col items-start">
                     <h2 className="">Arlene McCoy</h2>
-                    <span className="">One Year of Using Billia </span>
+                    <span className="text-[12px] text-gray-400 ">
+                      One Year of Using Billia
+                    </span>
                   </div>
                 </div>
                 <Image src={quote} alt="Testimonial Image" />
@@ -55,14 +57,16 @@ const Testimonials = () => {
 
             {/* plus quote */}
             <div className="bg-text-white rounded-xl p-4  ">
-              <div className=" w-full flex justify-between items-center  rounded-lg">
+              <div className=" w-full flex justify-between items-start  rounded-lg">
                 {/* plus pp */}
                 <div className="flex gap-3 ">
                   <Image src={girl3} alt="Testimonial Image" />
                   {/* arlene, year */}
-                  <div className="">
+                  <div className="flex flex-col items-start">
                     <h2 className="">Savannah Nguyen</h2>
-                    <span className="">Six Months of Using Billia </span>
+                    <span className="text-[12px] text-gray-400  ">
+                      Six Months of Using Billia{" "}
+                    </span>
                   </div>
                 </div>
                 <Image src={quote} alt="Testimonial Image" />
