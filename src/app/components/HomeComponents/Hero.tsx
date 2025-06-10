@@ -68,22 +68,22 @@ const Hero = () => {
                   //   src="../../../../public/assets/girl1.png"
                   src="../../../public/assets/girl1.png"
                   alt="User 1"
-                  className="w-10 h-10 rounded-full border-2 border-white"
+                  className="w-6 h-6 rounded-full border-2 border-white"
                 />
                 <img
                   src="../../../../public/assets/girl1.png"
                   alt="User 2"
-                  className="w-10 h-10 rounded-full border-2 border-white"
+                  className="w-6 h-6 rounded-full border-2 border-white"
                 />
                 <img
                   src="../../../../public/assets/girl1.png"
                   alt="User 3"
-                  className="w-10 h-10 rounded-full border-2 border-white"
+                  className="w-6 h-6 rounded-full border-2 border-white"
                 />
               </div>
 
               {/* Text */}
-              <p className=" text-small-8  text-black-back text-right max-w-[60%]">
+              <p className=" text-xs  text-black-back text-right max-w-[60%]">
                 Join 20,000+ Nigerians making payments smarter every day.
               </p>
             </div>

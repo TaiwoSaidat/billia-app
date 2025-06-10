@@ -6,7 +6,13 @@ import boy from "../../public/assets/boy1.png";
 import fb from "../../public/assets/fb.png";
 import x from "../../public/assets/x.png";
 import ig from "../../public/assets/ig.png";
+import bill from "../../public/assets/bill.png";
+import airtime from "../../public/assets/airtime.png";
 
+export const variantClasses: Record<string, string> = {
+  green: "bg-green-100 text-green-800",
+  blue: "bg-blue-100 text-blue-800",
+};
 // NAVBAR
 export const NAV = [
   { href: "/", key: "home", label: "Home" },
@@ -35,34 +41,26 @@ export const STORE = [
   },
 ];
 
-export const PROFILEPIC = [
-  { icon: girl1, alt: "girl1" },
-  { icon: girl2, alt: "girl2" },
-  { icon: boy, alt: "boy" },
-];
-
-// FOOTER SECTION
-// export const FOOTER_LINKS = [
-//   {
-//     title: "Legal",
-//     links: ["Privacy Policy", "Terms of Service"],
-//   },
+// export const PROFILEPIC = [
+//   { icon: girl1, alt: "girl1" },
+//   { icon: girl2, alt: "girl2" },
+//   { icon: boy, alt: "boy" },
 // ];
 
 export const SOCIAL_ICONS = [
   {
     label: "Twitter",
-    src: { x },
+    icon: x,
     href: "https://twitter.com",
   },
   {
     label: "Facebook",
-    src: { fb },
+    icon: fb,
     href: "https://facebook.com",
   },
   {
     label: "Instagram",
-    src: { ig },
+    icon: ig,
     href: "https://instagram.com",
   },
 ];
@@ -79,4 +77,21 @@ export const FOOTER_LINKS = [
 export const LEGAL_LINKS = [
   { href: "/", key: "privacy", label: "Privacy Policy" },
   { href: "/", key: "terms", label: "Terms of Services" },
+];
+
+export const FEATURES = [
+  {
+    title: "All_In_One Bill Payments",
+    icon: bill,
+    variant: "green",
+    subtitle:
+      "Pay for electricity, TV, internet, education, and betting — all in seconds.",
+  },
+  {
+    title: "Airtime & Data Top-Up",
+    icon: airtime,
+    variant: "blue",
+    subtitle:
+      "Buy airtime and mobile data for yourself or others — instantly and globally.",
+  },
 ];

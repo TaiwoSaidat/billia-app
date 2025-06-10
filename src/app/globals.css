@@ -35,38 +35,35 @@ body {
 }
 
 @theme {
-  
-  
   /* --color-gold-50: #C93106;
   --color-grey-950: #E46D12;
   */
- 
-  --color-primary: #F28211;
+
+  --color-primary: #f28211;
   --color-primary-linear: #e4660d;
-  
-  --color-gold-50: #FEF8EE;
-  --color-gold-100: #FEF1D6;
-  --color-gold-200: #FEDEAC;
-  --color-gold-300: #F9C678;
-  --color-gold-400: #F6A441;
 
-  --color-gold-500: #F28211;
+  --color-gold-50: #fef8ee;
+  --color-gold-100: #fef1d6;
+  --color-gold-200: #fedeac;
+  --color-gold-300: #f9c678;
+  --color-gold-400: #f6a441;
 
-  --color-grey-600: #E46D12;
-  --color-gold-700: #BD5311;
+  --color-gold-500: #f28211;
+
+  --color-grey-600: #e46d12;
+  --color-gold-700: #bd5311;
   --color-grey-800: #964216;
   --color-gold-900: #793715;
-  --color-gold-950: #411A09;
+  --color-gold-950: #411a09;
 
-  --color-black-back: #2D2D2D;
-  
-  --color-bg-green-right: #E1F7E6;
-  --color-bg-blue-left: #E6F4FF;
-  --color-bg-pink-down:#FF3B301A;
+  --color-black-back: #2d2d2d;
 
-  --color-text-white: #FFFFFF;
+  --color-bg-green-right: #e1f7e6;
+  --color-bg-blue-left: #e6f4ff;
+  --color-bg-pink-down: #ff3b301a;
 
-  
+  --color-text-white: #ffffff;
+
   /*  -color-bg-pink-up: #FF95001A;
   --color-bg-pink-down:#FF3B301A; */
   /* --color-bg-green-up; #34C7591A; */
@@ -111,15 +108,18 @@ body {
   }
 
   .small-12 {
-    @apply text-[12px] font-[500] leading-[100%]
+    @apply text-[12px] font-[500] leading-[100%];
   }
 
   .small-14 {
-    @apply text-[14px] font-[500] leading-[100%]
+    @apply text-[14px] font-[500] leading-[100%];
   }
 
   .small-16 {
     @apply text-[16px] font-[400] leading-[100%];
+  }
+  .small-18 {
+    @apply text-[18px] font-[400] leading-[100%];
   }
 
   .regular-20 {
@@ -130,6 +130,9 @@ body {
     @apply text-[22px] font-[500] leading-[100%];
   }
 
+  .regular-24 {
+    @apply text-[24px] font-[600] leading-[100%];
+  }
   .regular-30 {
     @apply text-[30px] font-[700] leading-[100%];
   }
@@ -159,7 +162,8 @@ body {
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
