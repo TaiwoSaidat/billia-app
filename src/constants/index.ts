@@ -3,6 +3,9 @@ import apple from "../../public/assets/apple.png";
 import girl1 from "../../public/assets/girl1.png";
 import girl2 from "../../public/assets/girl2.png";
 import boy from "../../public/assets/boy1.png";
+import fb from "../../public/assets/fb.png";
+import x from "../../public/assets/x.png";
+import ig from "../../public/assets/ig.png";
 
 // NAVBAR
 export const NAV = [
@@ -39,32 +42,41 @@ export const PROFILEPIC = [
 ];
 
 // FOOTER SECTION
-export const FOOTER_LINKS = [
+// export const FOOTER_LINKS = [
+//   {
+//     title: "Legal",
+//     links: ["Privacy Policy", "Terms of Service"],
+//   },
+// ];
+
+export const SOCIAL_ICONS = [
   {
-    title: "Learn More",
-    links: [
-      "About Wanderlay",
-      "Press Releases",
-      "Environment",
-      "Jobs",
-      "Privacy Policy",
-      "Contact Us",
-    ],
+    label: "Twitter",
+    src: { x },
+    href: "https://twitter.com",
   },
   {
-    title: "Our Community",
-    links: [
-      "Climbing mount everest",
-      "Wandering through Wanderlay",
-      "Wanderlay kinthill",
-    ],
+    label: "Facebook",
+    src: { fb },
+    href: "https://facebook.com",
+  },
+  {
+    label: "Instagram",
+    src: { ig },
+    href: "https://instagram.com",
   },
 ];
 
-export const FOOTER_CONTACT_INFO = {
-  title: "Contact Us",
-  links: [
-    { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "wanderlay@travels.com" },
-  ],
-};  
+export const FOOTER_LINKS = [
+  { href: "/", key: "home", label: "Home" },
+  { href: "/", key: "about_us", label: "About Us" },
+  { href: "/", key: "features", label: "Features" },
+  { href: "/", key: "testimonial", label: "Testimonial" },
+  { href: "/", key: "faq", label: "FAQ" },
+  { href: "/", key: "contact_us", label: "Contact Us" },
+];
+
+export const LEGAL_LINKS = [
+  { href: "/", key: "privacy", label: "Privacy Policy" },
+  { href: "/", key: "terms", label: "Terms of Services" },
+];
