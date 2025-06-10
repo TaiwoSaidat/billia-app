@@ -7,7 +7,7 @@ import { NAV } from "@/constants";
 const NavBar = () => {
   return (
     <>
-      <div className="flex justify-between items-center max-container padding-container py-6">
+      <div className=" bg-gold-50 flex justify-between items-center max-container padding-container py-6">
         <div className="">
           <Link href="/">
             <Image
