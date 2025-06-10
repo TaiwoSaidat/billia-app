@@ -52,11 +52,6 @@ export const PROFILEPIC = [
 
 export const SOCIAL_ICONS = [
   {
-    label: "Twitter",
-    icon: x,
-    href: "https://twitter.com",
-  },
-  {
     label: "Facebook",
     icon: fb,
     href: "https://facebook.com",
@@ -65,6 +60,11 @@ export const SOCIAL_ICONS = [
     label: "Instagram",
     icon: ig,
     href: "https://instagram.com",
+  },
+  {
+    label: "Twitter",
+    icon: x,
+    href: "https://twitter.com",
   },
 ];
 

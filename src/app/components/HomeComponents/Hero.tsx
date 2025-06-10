@@ -58,7 +58,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-between bg-green-500 rounded-xl border-gray-400 p-4 shadow-md max-w-xl mx-auto">
+            <div className="flex items-center justify-between border rounded-4xl border-gray-400 p-2 shadow-md max-w-xl mx-auto">
               {/* Profile stack */}
               <div className="flex -space-x-4">
                 {PROFILEPIC.map((item: any, index) => (
@@ -73,7 +73,7 @@ const Hero = () => {
               </div>
 
               {/* Text */}
-              <p className=" text-xs  text-black-back text-right max-w-[60%]">
+              <p className=" text-[8px]  text-black-back text-right max-w-[60%]">
                 Join 20,000+ Nigerians making payments smarter every day.
               </p>
             </div>

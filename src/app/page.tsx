@@ -4,6 +4,7 @@ import Header from "./components/HomeComponents/Header";
 import Features from "./components/HomeComponents/Features";
 import CTA from "./components/HomeComponents/CTA";
 import Testimonials from "./components/HomeComponents/Testimonials";
+import Works from "./components/HomeComponents/Works";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Features />
         <CTA />
         <Testimonials />
+        <Works />
       </div>
     </>
   );
