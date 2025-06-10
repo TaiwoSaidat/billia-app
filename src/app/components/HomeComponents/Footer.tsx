@@ -11,10 +11,12 @@ const Footer = () => {
         <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 justify-between">
           {/* Logo + slogan */}
           <div className="space-y-4">
-            <Image src={billia} alt="Billia logo" width={120} height={40} />
+            <Link href="/" className="flex items-center space-x-2">
+              <Image src={billia} alt="Billia logo" width={120} height={40} />
+            </Link>
             <p className="text-sm">
-              Our all-in-one app for bills, airtime, data, and <br /> smart payments — 
-              powered by Billia AI..
+              Our all-in-one app for bills, airtime, data, and <br /> smart
+              payments — powered by Billia AI..
             </p>
             <div className="flex space-x-4">
               {SOCIAL_ICONS.map((item: any) => (
