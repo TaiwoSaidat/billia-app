@@ -7,10 +7,14 @@ const AboutStore = () => {
   return (
     <>
       <div className=" max-container padding-container space-y-8 py-4 my-16 flex flex-col justify-center items-center space-y-6">
-        <p className="text-[40px] font-bold">
-          Ready to simplify your bills? <br />
-          Download Billia and experience the smarter way to pay.
-        </p>
+        <div className="">
+          <p className="text-[40px] font-bold flex flex-col justify-center items-center ">
+            Ready to simplify your bills?
+          </p>
+          <p className="text-[40px] font-bold flex flex-col justify-center items-center ">
+            Download Billia and experience the smarter way to pay.
+          </p>
+        </div>
         <div className="">
           <div className="  flex gap-4 ">
             {STORE.map((item: any) => (
