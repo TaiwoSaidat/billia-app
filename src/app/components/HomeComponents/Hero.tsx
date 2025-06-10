@@ -6,7 +6,9 @@ import bulbCircle from "../../../../public/assets/bulbCircle.png";
 import gradCapCircle from "../../../../public/assets/gradCapCircle.png";
 import tinyPhoneCircle from "../../../../public/assets/tinyPhoneCircle.png";
 import ytCircle from "../../../../public/assets/ytCircle.png";
-// import googlePlay from "../../../../public/assets/googlePlay.png";
+import girl1 from "../../../../public/assets/girl1.png";
+import girl2 from "../../../../public/assets/girl2.png";
+import boy1 from "../../../../public/assets/boy1.png";
 import Image from "next/image";
 import { STORE } from "@/constants";
 import Link from "next/link";
@@ -14,9 +16,6 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <>
-      {/* <div className="py-6 px-24 bg-gold-400 ">
-        
-      </div> */}
       <section className="bg-gold-50 py-16 max-container padding-container">
         <div className=" mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
           {/* Left content */}
@@ -60,6 +59,33 @@ const Hero = () => {
                   </div>
                 ))}
               </div>
+            </div>
+
+            <div className="flex items-center justify-between bg-green-500 rounded-xl border-gray-400 p-4 shadow-md max-w-xl mx-auto">
+              {/* Profile stack */}
+              <div className="flex -space-x-4">
+                <img
+                  //   src="../../../../public/assets/girl1.png"
+                  src="../../../public/assets/girl1.png"
+                  alt="User 1"
+                  className="w-10 h-10 rounded-full border-2 border-white"
+                />
+                <img
+                  src="../../../../public/assets/girl1.png"
+                  alt="User 2"
+                  className="w-10 h-10 rounded-full border-2 border-white"
+                />
+                <img
+                  src="../../../../public/assets/girl1.png"
+                  alt="User 3"
+                  className="w-10 h-10 rounded-full border-2 border-white"
+                />
+              </div>
+
+              {/* Text */}
+              <p className=" text-small-8  text-black-back text-right max-w-[60%]">
+                Join 20,000+ Nigerians making payments smarter every day.
+              </p>
             </div>
           </div>
 

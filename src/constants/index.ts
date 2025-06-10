@@ -15,7 +15,6 @@ export const NAV = [
 ];
 
 //HERO
-
 export const STORE = [
   {
     title: "GET IT ON",
@@ -38,3 +37,34 @@ export const PROFILEPIC = [
   { icon: girl2, alt: "girl2" },
   { icon: boy, alt: "boy" },
 ];
+
+// FOOTER SECTION
+export const FOOTER_LINKS = [
+  {
+    title: "Learn More",
+    links: [
+      "About Wanderlay",
+      "Press Releases",
+      "Environment",
+      "Jobs",
+      "Privacy Policy",
+      "Contact Us",
+    ],
+  },
+  {
+    title: "Our Community",
+    links: [
+      "Climbing mount everest",
+      "Wandering through Wanderlay",
+      "Wanderlay kinthill",
+    ],
+  },
+];
+
+export const FOOTER_CONTACT_INFO = {
+  title: "Contact Us",
+  links: [
+    { label: "Admin Officer", value: "123-456-7890" },
+    { label: "Email Officer", value: "wanderlay@travels.com" },
+  ],
+};  
