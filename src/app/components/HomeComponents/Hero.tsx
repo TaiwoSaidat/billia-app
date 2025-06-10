@@ -44,7 +44,7 @@ const Hero = () => {
                           alt={item.title}
                           width={25}
                           height={20}
-                          className="inline-block mr-2"
+                          className="inline-block "
                         />
                       </div>
 
