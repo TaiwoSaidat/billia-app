@@ -21,9 +21,9 @@ const AboutCard = ({
   reverse = false,
 }: AboutCardProps) => {
   return (
-    <div className={`w-full p-12 ${variant}`}>
+    <div className={`w-full py-12 ${variant}`}>
       <div
-        className={`flex flex-col-reverse md:flex-row items-center gap-10 ${
+        className={`flex flex-col-reverse md:flex-row items-center gap-10 max-container padding-container ${
           reverse ? "md:flex-row-reverse" : ""
         }`}
       >

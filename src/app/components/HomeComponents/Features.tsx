@@ -4,12 +4,13 @@ import Image from "next/image";
 // import airtime from "../../../../public/assets/airtime.png";
 import { FEATURES } from "@/constants";
 import { variantClasses } from "@/constants";
-import card from '../../../../public/assets/cardFull.png'
+import cardFull from '../../../../public/assets/cardFull.png'
+import card from '../../../../public/assets/card.png'
 
 const Features = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center gap-10 py-10">
+      <div className="flex flex-col items-center justify-center gap-10 py-10 max-container padding-container">
         <h1 className="text-3xl font-bold text-center text-gold-950">
           Features
         </h1>
@@ -42,16 +43,18 @@ const Features = () => {
         </div>
         <div className="grid grid-cols-1 grid-cols-2 gap-6 p-6 w-full bg-gold-50">
           <div className="space-y-6">
-            <h2 className="py-6 rounded-2xl flex flex-col gap-4">
+            {/* <h2 className="py-6 rounded-2xl flex flex-col gap-4"> */}
+            <h2 className="text-gold-950 text-xl font-extrabold mb-2 justify-start">
               Virtual Dollar Card
             </h2>
+            {/* <p className="text-black-back text-base font-medium text-start "> */}
             <p className="text-black-back text-base font-medium text-start ">
               Shop globally with your own secure virtual dollar card — perfect
               for subscriptions and online payments.
             </p>
           </div>
           <div className=" flex items-center justify-center">
-            <Image src={card} alt="card" width={250} height={250} />
+            <Image src={card} alt="card"  />
           </div>
         </div>
       </div>
