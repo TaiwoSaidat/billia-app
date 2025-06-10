@@ -9,9 +9,9 @@ const CTA = () => {
   return (
     <>
       <section className="  max-container padding-container">
-        <div className="  px-4 flex flex-col md:flex-row justify-between">
+        <div className="  px-4 flex flex-col md:flex-row gap-36 justify-between">
+         
           {/* Left content */}
-
           <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center md:justify-center relative">
             <Image
               src={phone}
@@ -23,11 +23,7 @@ const CTA = () => {
           </div>
 
           {/* Right content */}
-
           <div className="md:w-1/2 space-y-6">
-            {/* <p className="text-small-14 text-primary ">
-              Your App. Every Payment. Zero Stress.
-            </p> */}
             <h1 className="text-4xl md:text-large-30 font-bold text-gold-950 items-start">
               Introducing Billia AI: <br className="hidden md:block" />
               Smarter, Faster, Personal

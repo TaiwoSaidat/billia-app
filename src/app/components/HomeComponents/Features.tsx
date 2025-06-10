@@ -19,7 +19,7 @@ const Features = () => {
               key={index}
               className={`${
                 variantClasses[feature.variant]
-              } p-6 rounded-2xl shadow-lg flex flex-col gap-4`}
+              } px-6 pt-6 rounded-2xl shadow-lg flex flex-col gap-4`}
             >
               <h2 className="text-gold-950 text-xl font-extrabold mb-2 justify-start">
                 {feature.title}
@@ -41,11 +41,9 @@ const Features = () => {
         </div>
         <div className="grid grid-cols-1 grid-cols-2 gap-6 p-6 w-full bg-gold-50">
           <div className="space-y-6">
-            {/* <h2 className="py-6 rounded-2xl flex flex-col gap-4"> */}
             <h2 className="text-gold-950 text-xl font-extrabold mb-2 justify-start">
               Virtual Dollar Card
             </h2>
-            {/* <p className="text-black-back text-base font-medium text-start "> */}
             <p className="text-black-back text-base font-medium text-start ">
               Shop globally with your own secure virtual dollar card — perfect
               for subscriptions and online payments.

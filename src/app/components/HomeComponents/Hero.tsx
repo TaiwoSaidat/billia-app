@@ -93,17 +93,17 @@ const Hero = () => {
             <Image
               src={tinyPhoneCircle}
               alt="Icon"
-              className="absolute left-[220px] top-[15%] w-8 h-8 animate-float"
+              className="absolute left-[200px] top-[15%] w-8 h-8 animate-float"
             />
             <Image
               src={gradCapCircle}
               alt="Icon"
-              className="absolute left-[200px] top-[45%] w-8 h-8 animate-float"
+              className="absolute left-[180px] top-[45%] w-8 h-8 animate-float"
             />
             <Image
               src={netflixCircle}
               alt="Icon"
-              className="absolute left-[220px] top-[75%] w-8 h-8 animate-float"
+              className="absolute left-[200px] top-[75%] w-8 h-8 animate-float"
             />
 
             {/* Right side */}
