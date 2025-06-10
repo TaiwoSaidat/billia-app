@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Image src={billia} alt="Billia logo" width={120} height={40} />
             <p className="text-sm">
-              Our all-in-one app for bills, airtime, data, and smart payments —
+              Our all-in-one app for bills, airtime, data, and <br /> smart payments — 
               powered by Billia AI..
             </p>
             <div className="flex space-x-4">

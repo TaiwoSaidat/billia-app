@@ -10,17 +10,17 @@ import Image from "next/image";
 const Testimonials = () => {
   return (
     <>
-      <div className=" text-center bg-gradient-to-b from-[#F28211] to-[#C93106] max-container padding-container py-6">
+      <div className=" text-center bg-gradient-to-b from-[#F28211] to-[#C93106] max-container padding-container py-8">
         <div className="">
           <span className=" text-[6px] font-medium border rounded-4xl border-text-white text-text-white bg-transparent p-2">
             Testimonial
           </span>
-          <p className=" capitalize text-3xl font-bold text-text-white mt-4">
+          <p className=" capitalize text-3xl font-bold text-text-white my-6">
             What our customer says
           </p>
         </div>
 
-        <div className="flex flex-row items-center justify-between gap-6 ">
+        <div className="flex flex-row items-center justify-between gap-6 py-12 ">
           <Image src={arrowLeft} alt="Arrow Left" />
 
           <div className=" w-full grid grid-cols-1 md:grid-cols-2 gap-4 ">

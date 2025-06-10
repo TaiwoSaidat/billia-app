@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+// import bill from "../../../../public/assets/bill.png";
+// import airtime from "../../../../public/assets/airtime.png";
 import { FEATURES } from "@/constants";
 import { variantClasses } from "@/constants";
 import cardFull from '../../../../public/assets/cardFull.png'
@@ -19,7 +21,7 @@ const Features = () => {
               key={index}
               className={`${
                 variantClasses[feature.variant]
-              } px-6 pt-6 rounded-2xl shadow-lg flex flex-col gap-4`}
+              } p-6 rounded-2xl shadow-lg flex flex-col gap-4`}
             >
               <h2 className="text-gold-950 text-xl font-extrabold mb-2 justify-start">
                 {feature.title}
@@ -33,7 +35,7 @@ const Features = () => {
                   alt={feature.title}
                   width={300}
                   height={200}
-                  className="mt-4 rounded-lg"
+                  className="mt-4 rounded-lg -mb-6"
                 />
               </div>
             </div>
@@ -41,9 +43,11 @@ const Features = () => {
         </div>
         <div className="grid grid-cols-1 grid-cols-2 gap-6 p-6 w-full bg-gold-50">
           <div className="space-y-6">
+            {/* <h2 className="py-6 rounded-2xl flex flex-col gap-4"> */}
             <h2 className="text-gold-950 text-xl font-extrabold mb-2 justify-start">
               Virtual Dollar Card
             </h2>
+            {/* <p className="text-black-back text-base font-medium text-start "> */}
             <p className="text-black-back text-base font-medium text-start ">
               Shop globally with your own secure virtual dollar card — perfect
               for subscriptions and online payments.
