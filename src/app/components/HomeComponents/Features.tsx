@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-// import bill from "../../../../public/assets/bill.png";
-// import airtime from "../../../../public/assets/airtime.png";
 import { FEATURES } from "@/constants";
 import { variantClasses } from "@/constants";
 import cardFull from '../../../../public/assets/cardFull.png'

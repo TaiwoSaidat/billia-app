@@ -58,16 +58,15 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-between border rounded-4xl border-gray-400 p-2 shadow-md max-w-xl mx-auto">
+            <div className="flex items-center justify-between border rounded-4xl border-gray-400 p-2 shadow-md  mx-auto">
               {/* Profile stack */}
               <div className="flex -space-x-4">
                 {PROFILEPIC.map((item: any, index) => (
-                  <img
+                  <Image
                     key={index}
-                    // src={item.icon}
                     src={item.icon}
                     alt={item.alt}
-                    className="w-6 h-6 rounded-full border-2 border-white"
+                    className="w-12 h-12 rounded-full border border-transparent"
                   />
                 ))}
               </div>

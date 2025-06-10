@@ -13,8 +13,8 @@ const NavBar = () => {
             <Image
               src={logo}
               alt="Billia Logo"
-              width={50}
-              height={50}
+              width={150}
+              height={150}
               className="rounded-full"
             />
           </Link>
